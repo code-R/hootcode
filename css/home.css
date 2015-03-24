@@ -1,0 +1,79 @@
+.header {
+  height: 390px;
+  background: #fff url("../img/bg_header_big.png") repeat-x;
+}
+
+.landing-image-container {
+  margin-top: -250px;
+}
+
+.jumbotron {
+  background-color: #F1F1F1;
+}
+
+.navbar {
+  /*background-image: none;
+  background-color: transparent;*/
+  border: 0;
+}
+
+.steps {
+  margin-bottom: 30px;
+}
+
+.step {
+  display: block;
+  width: 100%;
+  height: 228px;
+  position: relative;
+  margin: auto;
+  max-width: 256px;
+  background-color:  #E1E1E1;
+  padding-top: 50px;
+}
+
+.step-name {
+ text-align: center;
+}
+
+.step:hover {
+  background-color:  #E1E1E1;
+  text-decoration: none;
+}
+
+.step:hover .step-name {
+  display: block;
+}
+
+.landing-image-container h1{
+  color: #fff;
+}
+
+
+.jumbotron h1{
+  font-size: 4em;
+  text-align: center;
+}
+
+.see-how {
+  font-size: .8em;
+}
+
+.step-icon {
+  width: 60px;
+  height: 60px;
+  background-color: #0de5f4;
+  margin-top: 18px;
+  display: inline-block;
+}
+
+.step-icon.install-cli {
+  background: url("../img/installcli.png") center no-repeat;
+}
+
+.step-number {
+  color: #ffffff;
+  display: inline-block;
+  margin: -8px auto 0 auto;
+  font-size: 2em;
+}
