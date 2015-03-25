@@ -30,194 +30,108 @@
 /*END - Css for circles***************************************************************/
 
 /*Css for regular hexagons*/
-/*
-.biege.small-hex:before{
-  border-bottom: 13px solid #5483A1;
-}
-
-.biege.small-hex{
-  background-color: #5483A1;
-}
-
-.biege.small-hex:after{
-  border-top: 13px solid #5483A1;
-}
-
-.small-hex:before {
-  content: " ";
-  width: 0;
-  border-left: 23px solid transparent;
-  border-right: 23px solid transparent;
-  position: absolute;
-  top: -13px;
-}
-
-.small-hex {
-  margin-top: 13px;
-  width: 46px;
-  height: 26px;
-  position: relative;
-}
-
-.small-hex:after {
-  content: " ";
-  width: 0;
-  border-left: 23px solid transparent;
-  border-right: 23px solid transparent;
-  position: absolute;
-  bottom: -13px;
-}
-
-
-.blue.hex{
-  background-color: #DDA163;
-}
-.blue.hex:before{
-  border-bottom: 13px solid #DDA163;
-}
-
-.blue.hex:after{
-  border-top: 13px solid #DDA163;
-}
-
-.hex:before {
-  content: " ";
-  width: 0;
-  border-left: 22px solid transparent;
-  border-right: 22px solid transparent;
-  position: absolute;
-  top: -13px;
-  left: 0;
-}
-
-.hex, .hex-big, .hex-small {
-  width: 45px;
-  height: 26px;
-  position: relative;
-  text-align: center;
-}
-
-.hex:after, .hex-big:after {
-  content: " ";
-  width: 0;
-  border-left: 22px solid transparent;
-  border-right: 22px solid transparent;
-  position: absolute;
-  bottom: -13px;
-  left: 0;
-}
-
-.hex-big {
-  width: 65px;
-  height: 46px;
-  background-color: red;
-}
-
-.hex-big:after {
-  border-left-width: 42px;
-  border-right-width: 42px;
-}
-
-
-*/
-
 .hex {
     position: relative;
     text-align: center;
 }
 
 .hex:before {
-    border-bottom-style: solid;
-}
-
-.hex:after {
-    border-top-style: solid;
-}
-
-
-
-.hex:before {
     content: " ";
     width: 0;
-    border-left: 22px solid transparent;
-    border-right: 22px solid transparent;
     position: absolute;
-    top: -13px;
     left: 0;
 }
 
 .hex:after {
     content: " ";
     width: 0;
-    border-left: 22px solid transparent;
-    border-right: 22px solid transparent;
     position: absolute;
-    bottom: -13px;
     left: 0;
 }
-
 
 .hex-small {
     width: 45px;
     height: 26px;
-    background-color: green;
+    background-color: #DDA163;
 }
 
 .hex-small:before {
-    border-bottom-width: 13px;
-    border-bottom-color: green;
+    border-bottom: 13px solid #DDA163;
     border-left: 22px solid transparent;
     border-right: 22px solid transparent;
+    top: -13px;
 }
 
 .hex-small:after {
-    border-top-width: 13px;
-    border-top-color: green;
+    border-top: 13px solid #DDA163;
     border-left: 22px solid transparent;
     border-right: 22px solid transparent;
+    bottom: -13px;
 }
-
-.hex-medium {
-    width: 78px;
-    height: 45px;
-    background-color: violet;
-}
-
-.hex-medium:before {
-    border-bottom-width: 13px;
-    border-bottom-color: violet;
-    border-left: 39px solid transparent;
-    border-right: 39px solid transparent;
-}
-
-.hex-medium:after {
-    border-top-width: 13px;
-    border-top-color: violet;
-    border-left: 39px solid transparent;
-    border-right: 39px solid transparent;
-}
-
 
 
 .hex-big {
-    width: 118px;
+    width: 117px;
     height: 68px;
-    background-color: teal;
 }
 
 .hex-big:before {
-    border-bottom-width: 13px;
-    border-bottom-color: teal;
-    border-left: 60px solid transparent;
-    border-right: 60px solid transparent;
+    border-left: 59px solid transparent;
+    border-right: 59px solid transparent;
+    top: -34px;
 }
 
 .hex-big:after {
-    border-top-width: 13px;
-    border-top-color: teal;
-    border-left: 60px solid transparent;
-    border-right: 60px solid transparent;
+    border-top: 34px solid #5483A1;
+    border-left: 59px solid transparent;
+    border-right: 59px solid transparent;
+    bottom: -34px;
 }
 
+.blue.hex-big:before{
+  border-bottom: 34px solid #5483A1;
+}
 
+.blue.hex-big{
+    background-color: #5483A1;
+}
 
+.blue.hex-big:after{
+    border-top: 34px solid #5483A1;
+}
+
+.red.hex-big:before{
+  border-bottom: 34px solid #EE1E12;
+}
+
+.red.hex-big{
+    background-color: #EE1E12;
+}
+
+.red.hex-big:after{
+    border-top: 34px solid #EE1E12;
+}
+
+.yellow.hex-big:before{
+  border-bottom: 34px solid #E6A128;
+}
+
+.yellow.hex-big{
+    background-color: #E6A128;
+}
+
+.yellow.hex-big:after{
+    border-top: 34px solid #E6A128;
+}
+
+.purple.hex-big:before{
+  border-bottom: 34px solid #A194FE;
+}
+
+.purple.hex-big{
+    background-color: #A194FE;
+}
+
+.purple.hex-big:after{
+    border-top: 34px solid #A194FE;
+}
