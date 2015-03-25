@@ -102,17 +102,34 @@ footer {
   text-align: center;
 }
 
-.ruby {
-  background: url("../img/ruby.png") no-repeat scroll center center rgba(0, 0, 0, 0);
-}
-
 .lang .lang-name{
   text-align: center;
   font-weight: bold;
   color: #7c7c7c;
-  /*text-decoration: none;*/
 }
 
 .languages .lang .hex{
   margin-bottom: 46px;
+}
+
+.lang i{
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+}
+
+.java {
+  background: url("../img/java.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+}
+
+.ruby {
+  background: url("../img/ruby.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+}
+
+.javascript {
+  background: url("../img/javascript.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+}
+
+.upcoming {
+  background: url("../img/upcoming.png") no-repeat scroll center center rgba(0, 0, 0, 0);
 }
